@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TCR_Windmill"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\..\..\..\..\usr\local\opencv4\;CMake Files\..\..\..\..\usr\local\opencv4\lib\;CMake Files\..\..\..\..\usr\local\opencv4\lib\cmake\;CMake Files\..\..\..\..\usr\local\opencv4\lib\cmake\opencv4\;CMake Files\..\..\..\..\usr\local\opencv340\;CMake Files\..\..\..\..\usr\local\opencv340\share\;CMake Files\..\..\..\..\usr\local\opencv340\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TCR_Windmill">
+				<Option output="/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/TCR_Windmill" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/czh/CLionProjects/TCR-Windmill/buff/include"/>
+					<Add directory="/home/czh/CLionProjects/TCR-Windmill/armor/include"/>
+					<Add directory="/home/czh/CLionProjects/TCR-Windmill/others/include"/>
+					<Add directory="/home/czh/CLionProjects/TCR-Windmill/usr/lib/libgxiapi.so"/>
+					<Add directory="/usr/local/opencv340/include"/>
+					<Add directory="/usr/local/opencv340/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 TCR_Windmill"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TCR_Windmill/fast">
+				<Option output="/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/TCR_Windmill" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/czh/CLionProjects/TCR-Windmill/buff/include"/>
+					<Add directory="/home/czh/CLionProjects/TCR-Windmill/armor/include"/>
+					<Add directory="/home/czh/CLionProjects/TCR-Windmill/others/include"/>
+					<Add directory="/home/czh/CLionProjects/TCR-Windmill/usr/lib/libgxiapi.so"/>
+					<Add directory="/usr/local/opencv340/include"/>
+					<Add directory="/usr/local/opencv340/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 TCR_Windmill/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/czh/CLionProjects/TCR-Windmill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/czh/CLionProjects/TCR-Windmill/armor/src/Armor_acquire.cpp">
+			<Option target="TCR_Windmill"/>
+		</Unit>
+		<Unit filename="/home/czh/CLionProjects/TCR-Windmill/buff/src/buff_detect.cpp">
+			<Option target="TCR_Windmill"/>
+		</Unit>
+		<Unit filename="/home/czh/CLionProjects/TCR-Windmill/buff/src/solve_angle.cpp">
+			<Option target="TCR_Windmill"/>
+		</Unit>
+		<Unit filename="/home/czh/CLionProjects/TCR-Windmill/main.cpp">
+			<Option target="TCR_Windmill"/>
+		</Unit>
+		<Unit filename="/home/czh/CLionProjects/TCR-Windmill/others/include/camera/save_video.h">
+			<Option target="TCR_Windmill"/>
+		</Unit>
+		<Unit filename="/home/czh/CLionProjects/TCR-Windmill/others/src/additions.cpp">
+			<Option target="TCR_Windmill"/>
+		</Unit>
+		<Unit filename="/home/czh/CLionProjects/TCR-Windmill/others/src/camera_device.cpp">
+			<Option target="TCR_Windmill"/>
+		</Unit>
+		<Unit filename="/home/czh/CLionProjects/TCR-Windmill/others/src/camera_wrapper.cpp">
+			<Option target="TCR_Windmill"/>
+		</Unit>
+		<Unit filename="/home/czh/CLionProjects/TCR-Windmill/others/src/save_video.cpp">
+			<Option target="TCR_Windmill"/>
+		</Unit>
+		<Unit filename="/home/czh/CLionProjects/TCR-Windmill/others/src/serialport.cpp">
+			<Option target="TCR_Windmill"/>
+		</Unit>
+		<Unit filename="/home/czh/CLionProjects/TCR-Windmill/others/src/systime.cpp">
+			<Option target="TCR_Windmill"/>
+		</Unit>
+		<Unit filename="/home/czh/CLionProjects/TCR-Windmill/others/src/thread_control.cpp">
+			<Option target="TCR_Windmill"/>
+		</Unit>
+		<Unit filename="/home/czh/CLionProjects/TCR-Windmill/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/czh/CLionProjects/TCR-Windmill/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/czh/CLionProjects/TCR-Windmill/../../../../usr/local/opencv4/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\opencv4\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/czh/CLionProjects/TCR-Windmill/../../../../usr/local/opencv340/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\opencv340\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/czh/CLionProjects/TCR-Windmill/../../../../usr/local/opencv340/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\opencv340\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/czh/CLionProjects/TCR-Windmill/../../../../usr/local/opencv340/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\opencv340\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/czh/CLionProjects/TCR-Windmill/../../../../usr/local/opencv340/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\opencv340\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
