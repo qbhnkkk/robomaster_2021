@@ -14,14 +14,28 @@
 源码存放在master分支下。
 本源码是由作者和他人共同完成，其中buff文件中的代码由他人完成，其余由作者完成并整合代码。
 ### 代码解释：
-> armor
->> include
+#### main.cpp
+程序入口
+#### armor
+##### include
 存放装甲板识别的头文件  
->> src
+##### src
 存放装甲板识别的cpp文件  
+#### buff
+##### include
+存放能量机关识别的头文件  
+##### src
+存放能量机关识别的cpp文件  
+#### cmake-build-debug
+存放多个工业相机标定的参数xml文件
+#### others
+存放工业相机API开发、多线程、双工通信等功能的代码
+##### additions.cpp、save_video.cpp与additions.h、save_video.h
+录制视频的代码
+##### camera_device.cpp、camera_wrapper.cpp与camera_device.h、camera_wrapper.h
+大恒工业相机和华腾工业相机的API开发代码
+##### serialport.cpp与serialport.h
+双工通信代码
+##### thread_control.cpp与thread_control.h
+多线程代码
 
-> buff
->> include
-存放能量机关识别的头文件 
->> src
-存放能量机关识别的cpp文件 
